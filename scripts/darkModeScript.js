@@ -7,11 +7,11 @@ let toggle = () =>{
     isOn = !isOn;
 
     if(isOn){
-        darkInteract.src = "../assets/sun.png"
+        darkInteract.src = "assets/sun.png"
         background.style.backgroundColor = "#2d3b43"
         pText.style.color = "#fff"
       } else {
-        darkInteract.src = "../assets/darkButton.png"
+        darkInteract.src = "assets/darkButton.png"
         background.style.backgroundColor = "#E4F6F8"
         pText.style.color = "black"
       }
